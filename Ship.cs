@@ -84,7 +84,7 @@ namespace CargoShipLoader
         /// <returns>Return a label that we're going to show on the ship. Return a string to our program.</returns>
         public override string ToString()
         {
-            return "Capacity" + this.Capacity + ", CurrentLoad = " + this.GetShipLoad();
+            return "Capacity = " + this.Capacity + ", CurrentLoad = " + this.GetShipLoad();
         }
 
         /// <summary>
