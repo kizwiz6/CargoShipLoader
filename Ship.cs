@@ -36,7 +36,7 @@ namespace CargoShipLoader
             this.TrainCarCount = 0;
 
             // Create a random sized ship, using MAX_WEIGHT as the constant value.
-            this.Capacity = (this.random.Next(MAX_WEIGHT) * CYCLE_WEIGHT) + (this.random.Next(CAR_WEIGHT) * CAR_WEIGHT) + (this.random.Next(TRUCK_WEIGHT) * TRUCK_WEIGHT) + (this.random.Next(TRAIN_WEIGHT) + TRAIN_WEIGHT);
+            this.Capacity = (this.random.Next(MAX_WEIGHT) * CYCLE_WEIGHT) + (this.random.Next(MAX_WEIGHT) * CAR_WEIGHT) + (this.random.Next(MAX_WEIGHT) * TRUCK_WEIGHT) + (this.random.Next(MAX_WEIGHT) * TRAIN_WEIGHT);
         }
 
         // Properties for the class
